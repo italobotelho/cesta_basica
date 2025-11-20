@@ -1,6 +1,6 @@
 # 📊 Análise Econômica da Cesta Básica (2022–2026)
 
-Este repositório apresenta uma análise completa sobre a evolução dos preços da cesta básica no Brasil, considerando inflação, impacto social, poder de compra e projeções futuras.  
+Este repositório apresenta uma análise completa sobre a evolução dos preços da cesta básica com ênfase em almoço no Brasil, considerando inflação, impacto social, poder de compra e projeções futuras.  
 O projeto foi desenvolvido como parte do componente curricular **Projetos Computacionais**, no curso de **Ciência de Dados e Inteligência Artificial da PUC-Campinas**.
 
 ---
@@ -10,30 +10,34 @@ O projeto foi desenvolvido como parte do componente curricular **Projetos Comput
 Aqui estão algumas das visualizações desenvolvidas no Power BI:
 
 <p align="center">
-  <img src="./assets/dashboard_mensal.png" width="680px">
+  <img src="./assets/dashboard_mensal.jpg" width="680px">
   <br>
-  <em>Figura 1 — Análise Mensal da Cesta Básica</em>
+  <em>Figura 1 — Análise do Valor Mensal da Cesta Básica</em>
 </p>
 
 <p align="center">
-  <img src="./assets/dashboard_anual.png" width="680px">
+  <img src="./assets/dashboard_anual.jpg" width="680px">
   <br>
-  <em>Figura 2 — Valor Anual e Peso no Salário Mínimo</em>
+  <em>Figura 2 — Análise do Valor Anual da Cesta Básica</em>
 </p>
 
 <p align="center">
-  <img src="./assets/dashboard_inflacao.png" width="680px">
+  <img src="./assets/dashboard_inflacao.jpg" width="680px">
   <br>
-  <em>Figura 3 — Inflação dos Principais Alimentos</em>
+  <em>Figura 3 — Análise da Inflação dos Alimentos da Cesta Básica ao Longo dos Anos</em>
 </p>
 
 <p align="center">
-  <img src="./assets/dashboard_projecoes.png" width="680px">
+  <img src="./assets/dashboard_projecoes.jpg" width="680px">
   <br>
-  <em>Figura 4 — Projeções para 2026</em>
+  <em>Figura 4 — Análise da Evolução e Projeção do Salário Mínimo</em>
 </p>
 
-(Se quiser, posso gerar nomes adequados para os arquivos PNG.)
+<p align="center">
+  <img src="./assets/dashboard_predicao.jpg" width="680px">
+  <br>
+  <em>Figura 5 — Análise de Predição do Valor da Cesta Básica no Futuro</em>
+</p>
 
 ---
 
