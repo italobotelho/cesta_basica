@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
-  <img src="https://img.shields.io/badge/Data%20Analysis-2962FF?style=for-the-badge&logo=databricks&logoColor=white">
-  <img src="https://img.shields.io/badge/Statistics-9C27B0?style=for-the-badge&logo=codeigniter&logoColor=white">
-  <img src="https://img.shields.io/badge/Visualization-E91E63?style=for-the-badge&logo=plotly&logoColor=white">
-</p>
-
 # 📊 Análise Econômica da Cesta Básica (2022–2026)
 
 Este repositório apresenta uma análise completa sobre a evolução dos preços da cesta básica com ênfase em almoço no Brasil, considerando inflação, impacto social, poder de compra e projeções futuras.  
