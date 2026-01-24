@@ -34,9 +34,9 @@ Para garantir a precisão dos insights, o projeto seguiu as seguintes etapas:
 
 ## 📈 Demonstração dos Resultados
 
-| Visão de Predição | Evolução da Inflação |
+| Evolução da Inflação | Visão de Projeções |
 | :---: | :---: |
-| ![Predição](./assets/dashboard_predicao.jpg) | ![Inflação](./assets/dashboard_inflacao.jpg) |
+| ![Predição](./assets/dashboard_inflacao.jpg) | ![Projeções](./assets/dashboard_projecoes.jpg) |
 
 ---
 
