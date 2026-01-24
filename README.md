@@ -1,107 +1,52 @@
-# 📊 Análise Econômica da Cesta Básica (2022–2026)
+# 🛒 Análise e Predição de Preços: Cesta Básica
 
-Este repositório apresenta uma análise completa sobre a evolução dos preços da cesta básica com ênfase em almoço no Brasil, considerando inflação, impacto social, poder de compra e projeções futuras.  
-O projeto foi desenvolvido como parte do componente curricular **Projetos Computacionais**, no curso de **Ciência de Dados e Inteligência Artificial da PUC-Campinas**.
+![Power BI](https://img.shields.io/badge/tool-Power%20BI-yellow.svg)
+![Data Analysis](https://img.shields.io/badge/focus-Data%20Analysis-blue.svg)
+![Forecasting](https://img.shields.io/badge/logic-Forecasting-orange.svg)
 
----
-
-# 🖼️ Visão Geral das Dashboards
-
-Aqui estão algumas das visualizações desenvolvidas no Power BI:
-
-<p align="center">
-  <img src="./assets/dashboard_mensal.jpg" width="680px">
-  <br>
-  <em>Figura 1 — Análise do Valor Mensal da Cesta Básica</em>
-</p>
-
-<p align="center">
-  <img src="./assets/dashboard_anual.jpg" width="680px">
-  <br>
-  <em>Figura 2 — Análise do Valor Anual da Cesta Básica</em>
-</p>
-
-<p align="center">
-  <img src="./assets/dashboard_inflacao.jpg" width="680px">
-  <br>
-  <em>Figura 3 — Análise da Inflação dos Alimentos da Cesta Básica ao Longo dos Anos</em>
-</p>
-
-<p align="center">
-  <img src="./assets/dashboard_projecoes.jpg" width="680px">
-  <br>
-  <em>Figura 4 — Análise da Evolução e Projeção do Salário Mínimo</em>
-</p>
-
-<p align="center">
-  <img src="./assets/dashboard_predicao.jpg" width="680px">
-  <br>
-  <em>Figura 5 — Análise de Predição do Valor da Cesta Básica no Futuro</em>
-</p>
+Este projeto apresenta uma análise profunda sobre a variação de preços dos itens da cesta básica, utilizando **Power BI** para visualização de dados e modelos estatísticos para **predição de tendências (Forecasting)**. O objetivo é fornecer insights sobre a inflação alimentar e o impacto no poder de compra.
 
 ---
 
-# 📌 Objetivos do Projeto
+## 🚀 Funcionalidades e Dashboards
 
-- Analisar o custo mensal e anual da cesta básica entre 2022 e 2025  
-- Investigar a inflação de alimentos essenciais (arroz, feijão e carne)  
-- Avaliar o impacto da cesta básica no orçamento de famílias de baixa renda  
-- Comparar os valores com o salário mínimo ao longo dos anos  
-- Realizar projeções de custo para 2026  
-- Criar dashboards interativos em Power BI para visualizar os resultados  
+O projeto é dividido em visões estratégicas:
 
----
+* **Análise Temporal:** Evolução dos preços ao longo dos meses/anos.
+* **Dashboard de Inflação:** Comparativo percentual de aumento por categoria de produto.
+* **Projeções (Forecasting):** Modelagem preditiva para estimar os preços nos próximos meses com base em dados históricos.
+* **Filtros Dinâmicos:** Segmentação por produto, período e região.
 
-# 📈 Principais Resultados
-
-### 🔹 Evolução dos preços
-- Redução entre **2022 e 2024**
-- Aumento expressivo em **2025**
-- Previsão de leve queda em **2026**
-
-### 🔹 Impacto no orçamento
-- O peso da cesta em relação ao salário mínimo **diminuiu** entre 2022 e 2025  
-- Beneficiários economizam cerca de **R$ 4.790 anuais**
-
-### 🔹 Inflação dos alimentos
-- **Arroz** foi o item mais inflacionado (+25% em 2024)  
-- **Feijão** e **carne** apresentaram estabilização ou queda  
+![Dashboard Principal](./assets/dashboard_anual.jpg)
 
 ---
 
-# 🛠 Tecnologias e Métodos Utilizados
+## 🧠 Metodologia e Ferramentas
 
-| Tecnologia / Método | Uso |
-|---------------------|-----|
-| **Power BI** | Dashboards, tratamentos e visualizações |
-| **Excel / CSV** | Manipulação dos datasets |
-| **Estatística Descritiva** | Médias, variações e comparações |
-| **Modelos de Projeção Linear** | Previsão de valores futuros |
-| **Análise Temporal** | Observação de tendências ano a ano |
+Para garantir a precisão dos insights, o projeto seguiu as seguintes etapas:
 
----
-
-# 📝 Relatório Completo
-O relatório detalhado pode ser acessado aqui:
-
-👉 **[Relatorio_ProjetoExtensao.pdf](./Relatorio_ProjetoExtensao.pdf)**
+* **ETL (Extract, Transform, Load):** Limpeza e tratamento de dados brutos utilizando Power Query (M Language).
+* **Modelagem de Dados:** Criação de tabelas dimensão e fato (Star Schema) para otimizar a performance dos filtros.
+* **DAX (Data Analysis Expressions):** Desenvolvimento de métricas customizadas para cálculo de variação acumulada e médias móveis.
+* **Visualização:** Design focado em UX (User Experience) para facilitar a leitura de KPIs críticos.
 
 ---
 
-# 👥 Equipe do Projeto
+## 📈 Demonstração dos Resultados
 
-- **Ítalo Fraga Botelho**  
-- Isabel Baungartner  
-- Júlia de Souza Leandro  
-- Lavínia Oliveira dos Santos  
-- Maria Eduarda Fonseca  
-- Tiago Noda von Zuben  
-
-**Orientador:** Prof. José Antonio Carnevalli
+| Visão de Predição | Evolução da Inflação |
+| :---: | :---: |
+| ![Predição](./assets/dashboard_predicao.jpg) | ![Inflação](./assets/dashboard_inflacao.jpg) |
 
 ---
 
-# 📬 Contato  
+## 📂 Como visualizar o projeto
 
-Se quiser trocar ideias sobre análise de dados ou dashboards:  
-**LinkedIn:** https://linkedin.com/in/italobotelho
+1.  Acesse a pasta `docs/` para ler o **Relatório Técnico Completo (PDF)**.
+2.  Baixe o arquivo `projeto-cesta-basica.pbix` na raiz.
+3.  Abra o arquivo utilizando o **Power BI Desktop**.
+
+---
+
+## 🎓 Autor
+Desenvolvido por **Ítalo Botelho** e colegas como parte de projetos de extensão em **Ciência de Dados e IA**.
